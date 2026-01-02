@@ -2,7 +2,7 @@
 
 ## 1. Pendahuluan
 
-Dokumen ini merangkum strategi transisi bagi pengembang perangkat lunak yang berpindah dari ekosistem **Python/Flask** ke **TypeScript/NestJS**. Migrasi ini bukan sekadar perubahan sintaks bahasa, melainkan perubahan fundamental dalam **filosofi arsitektur**.
+Dokumen ini merangkum strategi transisi bagi software engineer yang berpindah dari ekosistem **Python/Flask** ke **TypeScript/NestJS**. Migrasi ini bukan sekadar perubahan sintaks bahasa, melainkan perubahan fundamental dalam **filosofi arsitektur**.
 
 Flask menawarkan kebebasan (*Micro-framework*), sementara NestJS menawarkan struktur dan standarisasi (*Opinionated Framework*). Tujuan utama migrasi ini biasanya adalah untuk mencapai **skalabilitas**, **keteraturan kode (maintainability)**, dan **keamanan tipe data (type safety)** pada aplikasi berskala besar.
 
@@ -10,7 +10,7 @@ Flask menawarkan kebebasan (*Micro-framework*), sementara NestJS menawarkan stru
 
 ## 2. Pergeseran Paradigma (Core Paradigm Shifts)
 
-Terdapat tiga perubahan mentalitas utama yang harus diadopsi oleh tim pengembang:
+Terdapat tiga perubahan mentalitas utama yang harus diadopsi:
 
 1. **Struktur vs. Kebebasan:**
 * **Flask:** Mengandalkan konvensi tim (struktur folder bebas).
